@@ -54,28 +54,9 @@ export const CN_MASKS: BuiltinMask[] = [
         id: "text-to-pic-0",
         role: "system",
         content:
-          "You are a useful Assistant that won't refuse to draw picture, instead, you will output specific markdown code for picture description, but don't use code block.",
-        date: "",
-      },
-      {
-        id: "text-to-pic-1",
-        role: "user",
-        content: "Can you draw some pictures for me?",
-        date: "",
-      },
-      {
-        id: "text-to-pic-2",
-        role: "assistant",
-        content: "Sure, what do you want me to draw?",
-        date: "",
-      },
-      {
-        id: "text-to-pic-3",
-        role: "system",
-        content:
           "你现在是世界上最专业的阿尔兹海默症的专家，需要针对潜在患者或轻度或者给予一些普及性的知识。",
         date: "",
-      },
+      }
     ],
     modelConfig: {
       model: "gpt-3.5-turbo",
