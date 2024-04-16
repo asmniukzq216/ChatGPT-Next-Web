@@ -8,7 +8,7 @@
     "withGlobalTauri": true
   },
   "package": {
-    "productName": "NextChat",
+    "productName": "悦管家AI助手",
     "version": "2.11.3"
   },
   "tauri": {
